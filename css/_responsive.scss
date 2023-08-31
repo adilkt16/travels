@@ -1,0 +1,410 @@
+
+
+
+
+
+@media all and (max-width:1200px){
+    
+    //about
+    #about ul li div.about-image {
+        // width: 400px;
+        width: auto;
+        height: auto;
+        // height: 280px;
+    }
+
+
+    //gallery
+    #gallery div.items div.item img {
+        border-radius: 10px;
+        width: 280px;
+        height: 320px;
+    }
+    #gallery div.items div.item div.content {
+        padding: 40px 20px 20px;
+        width: 280px;
+    }
+}
+
+@media all and (max-width:980px){
+    header {
+        padding: 30px 60px;
+    }
+    header nav.navbar ul.nav-menu li.nav-item a {
+        font-size: 16px;
+    }
+
+    //about
+    #about ul li div.about-image {
+        // width: 360px;
+        width: auto;
+        height: auto;
+        // height: 280px;
+    }
+
+    //gallery 
+    #gallery div.items div.item {
+        width: 100%;
+    }
+    #gallery div.items div.item img {
+        border-radius: 10px;
+        width: inherit;
+        height: 320px;
+    }
+    #gallery div.items div.item div.content {
+        padding: 40px 20px 20px;
+        width: inherit;
+    }
+}
+
+@media all and (max-width:860px){
+    header {
+        padding: 30px;
+    }
+
+    //services
+    #services section.all-skills ul {
+        min-height: 180px;
+        width: 100%;
+    }
+
+    //tour
+    #tour ul li {
+        width: 100%;
+        margin: 0 10px 30px 0;
+    }
+
+
+    //footer
+    footer {
+        padding: 80px 0 40px;
+    }
+    footer #contact ul {
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    footer #contact ul li {
+        margin-right: 20px;
+        margin-bottom: 10px;
+    }
+}
+
+@media all and (max-width:768px){
+    //ul.top_contact here
+    ul.top_contact {
+        padding: 10px 20px;
+    }
+
+    //header here
+    header {
+        padding: 20px 60px;
+    }
+
+    //Navbar
+	.nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 7.5rem;
+        flex-direction: column;
+        background-color: lightcoral;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow:0 10px 27px rgba(0, 0, 0, 0.05);
+        padding: 0 100px;
+    }
+    .nav-menu.active {
+        left: 0;
+    }
+    .nav-item {
+        margin: 15px 0;
+    }
+    html body  header nav.navbar div.hamburger {
+        display: block;
+        cursor: pointer;
+    }
+	.hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    ul.nav-menu {
+        li.nav-item {
+            margin-right: 0;
+            a {
+                font-size: 16px;
+                font-weight: 900;
+            }
+        }
+    }
+
+    //spotlight
+    #spotlight div.spotlight-content h1 {
+        font-size: 54px;
+    }
+    #spotlight div.spotlight-content a.touch {
+        padding: 16px 24px;
+    }
+
+    //about 
+    #about {
+        padding: 80px 0 60px;
+    }
+    #about ul {
+        flex-wrap: wrap;
+    }
+    #about ul li {
+        width: 100%;
+        text-align: center;
+    }
+    #about ul li div.about-image {
+        width: 400px;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+    #about ul li h2 {
+        margin-top: 40px;
+    }
+
+    
+
+    //faq
+    #faq {
+        padding: 50px 50px;
+    }
+    #faq section.questions div.clickable ul li h6 {
+        font-size: 16px;
+    }
+    #faq section.questions div.clickable div.clicked p {
+        padding-left: 20px;
+        font-size: 15px;
+        margin-left: 40px;
+    }
+    #faq section.questions div.clickable ul li div.dropdown {
+        margin-right: 16px;
+        width: 20px;
+    }
+}
+
+
+@media all and (max-width:640px){
+    //ul.top_contact here
+    ul.top_contact {
+        justify-content: center;
+    }
+    li.none-580 {
+        display: none;
+    }
+
+
+    //header
+    header {
+        padding: 20px 40px;
+    }
+    .nav-menu {
+        top: 7.5rem;
+    }
+
+    //spotlight
+    #spotlight div.spotlight-content {
+        margin: 0 6vw;
+        padding: 24vh 0;
+    }
+
+    //tour
+    #tour ul li div.destination-image {
+        width: initial;
+        height: 280px;
+    }
+
+
+
+    //faq
+    #faq section.questions div.clickable div.clicked p {
+        padding-left: 10px;
+        font-size: 15px;
+        margin-left: 20px;
+    }
+    #faq section.questions div.clickable ul li h6 {
+        margin-left: 20px;
+    }
+    #faq {
+        padding: 50px 30px;
+    }
+
+}
+
+@media all and (max-width:480px){
+    //common
+    h2 {
+        font-size: 28px;
+    }
+    //ul.top_contact here
+    ul.top_contact li p {
+        font-size: 13px;
+        text-align: center;
+    }
+    ul.top_contact {
+        padding: 10px 10px;
+    }
+
+
+    header nav.navbar div.logo-bar a div.main-logo {
+        width:120px;
+    }
+    header {
+        padding: 20px 30px;
+    }
+
+    //spotlight
+    #spotlight div.spotlight-content {
+        margin: 0 6vw;
+        padding: 16vh 0;
+    }
+    #spotlight div.spotlight-content a.touch {
+        padding: 12px 18px;
+        font-size: 14px;
+    }
+
+    //about 
+    #about {
+        padding: 50px 0 30px;
+    }
+
+    #about ul li div.about-image {
+        width: 300px;
+        height: auto;
+    }
+
+    //services
+    #services {
+        padding:40px 0 50px;
+    }
+    #services section.all-skills {
+        margin: 40px 0 0 0;
+    }
+    #services section.all-skills ul li div.skill-image {
+        width: 40px;
+        margin-right: 20px;
+    }
+
+    //tour
+    #tour {
+        padding: 40px 0 ;
+    }
+    #tour ul {
+        margin-top: 40px;
+    }
+    #tour ul li div.destination-image {
+        width: initial;
+        height: 250px;
+    }
+
+    #tour ul li div.all-info h6 {
+        margin: 30px 0 10px;
+        font-size: 20px;
+    }
+    #tour ul li div.all-info p.tour-description {
+        margin-bottom: 30px;
+        opacity: 0.6;
+        font-size: 15px;
+    }
+
+    //#gallery
+
+    #gallery {
+        padding: 40px 0 20px;
+    }
+    #gallery h2 {
+        margin-bottom: 40px;
+    }
+
+    //#faq
+    #faq {
+        padding: 40px 20px;
+    }
+    #faq h2 {
+        margin-bottom: 40px;
+    }
+    #faq section.questions {
+        padding-bottom: 0px;
+    }
+
+    //testimonial
+    #testimonial {
+        padding: 40px 0;
+    }
+    #testimonial ul li p {
+        font-size: 16px;
+    }
+    #testimonial ul li {
+        padding: 55px 30px 30px;
+    }
+
+    //footer
+    footer {
+        padding: 50px 0 30px;
+    }
+    footer #contact h6.company-name {
+        margin: 40px 0 40px;
+        font-size: 28px;
+    }
+    footer #contact div.main-footer-logo {
+        width: 150px;
+    }
+    footer #contact ul li a {
+        font-size: 16px;
+    }
+}
+
+@media all and (max-width:360px){
+    ul.top_contact li p {
+        font-size: 12px;
+    }
+    header {
+        padding: 15px 20px;
+    }
+
+    //spotlight
+    #spotlight div.spotlight-content h1 {
+        font-size: 48px;
+    }
+
+    //about 
+    #about ul li div.about-image {
+        width: 280px;
+        height: auto;
+    }
+    #about ul li p {
+        font-size: 15px;
+    }
+
+    //services
+    #services section.all-skills ul li p.service-description {
+        font-size: 14px;
+    }
+
+    //tour
+    #tour ul li div.destination-image {
+        width: initial;
+        height: 220px;
+    }
+
+
+    //faq
+    #faq section.questions div.clickable div.clicked p {
+        padding-left: 10px;
+        font-size: 14px;
+        margin-left: 20px;
+    }
+    #faq section.questions div.clickable ul li h6 {
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,91 @@
+@import "all";
+@import "responsive";
+@import "company";
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+ol, ul {
+	list-style: none;
+}
+del {
+	text-decoration: line-through;
+}
+body {
+	// background-color: gray;
+	font-size: 16px;
+	font-weight: 600;
+	overflow-x: hidden;
+	min-width: 320px;
+    font-family: 'Montserrat', sans-serif;
+}
+input,textarea,select{
+}
+p{
+    font-family: 'Roboto', sans-serif;
+	line-height:1.6em;
+	font-size: 16px;
+	font-weight: 400;
+}
+.wrapper {
+	width: 90%;
+	max-width: 1150px;
+	margin: 0 auto;
+}
+
+body img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
+//TO TOP ANIMATION
+a.for-top-image{
+	z-index: 9;
+}
+.for-top-img {
+    position: fixed;
+    bottom: 20px;
+    left: 30px;
+    width: 60px;
+    height: auto;
+	opacity: 0.8;
+    // animation: floating 3s ease-in-out infinite;
+	img {
+		background-color: #fff;
+		border-radius: 50%;
+	}
+}
+
+.img-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+@media all and (max-width:480px){
+	.for-top-img{
+		width: 40px;
+	}
+}
+@media all and (max-width:320px){
+	.for-top-img {
+		bottom: 20px;
+		left: 10px;
+	}
+}
